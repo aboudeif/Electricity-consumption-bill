@@ -1,0 +1,101 @@
+
+body
+{
+  font-family: 'Courier New', Courier, monospace;
+  width: 100%;
+}
+article
+{
+  width: 50%;
+  position: absolute;
+  
+}
+section
+{
+  position: absolute;
+  left: 0%;
+  top: 10px;
+  transform: translate(-50%,0%);
+}
+.container
+{
+  position: relative;
+  text-align: right;
+}
+label, span
+{
+  font-weight: 600;
+  
+}
+label
+{
+  margin-right: 30px;
+  color: #000000c0;
+}
+span
+{
+  color: #ff0000c9;
+}
+.company
+{
+  margin-top: 50px;
+  margin-bottom: 30px;
+  
+}
+.title
+{
+  width: max-content;
+  padding: 0 100px;
+  text-align: center;
+}
+.group
+{
+  margin-top: 40px;
+}
+table
+{
+ text-align: right;
+ display: flex;
+ width: max-content;
+ font-size: 13pt;
+ position: relative;
+ right: 10px;
+ top: 20px;
+}
+th
+{
+  border: 1px solid #bbbaba;
+  padding: 2px 10px 2px 30px;
+  color: #000000c0;
+  background-color: #dedede;
+  
+ font-weight: 200;
+}
+td
+{
+  border: 1px solid #bbbaba;
+  padding: 1.3px 5px 1.3px 60px;
+  color: blue;
+  
+}
+small
+{
+  font-size: 8pt;
+  
+}
+label
+{
+  display: block;
+}
+
+input
+{
+  padding: 0 50px;
+  margin-right: 200px;
+  margin-top: 40px;
+}
+li
+{
+  font-size: 11pt;
+  width: 500px;
+}
